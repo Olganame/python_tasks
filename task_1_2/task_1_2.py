@@ -1,22 +1,27 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[18]:
+# In[1]:
 
 
 def shortcut(line):
-    line = "".join( c for c in line if c not in "a,e,i,o,u" )
-    return line
+    return "".join( c for c in line if c not in "a,e,i,o,u" )
 
 
-# In[19]:
+# In[2]:
 
 
 print(shortcut("codewars"))
 
 
-# In[20]:
+# In[3]:
 
 
 print(shortcut("goodbye"))
+
+
+# In[ ]:
+
+
+
 
